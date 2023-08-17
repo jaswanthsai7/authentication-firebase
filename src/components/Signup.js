@@ -20,7 +20,7 @@ export default function Signup() {
   };
 
   return (
-    <div>
+    <div >
       <p>
         Already have an account ? then{" "}
         <Link to="/" className="underline">
@@ -69,9 +69,11 @@ export default function Signup() {
             Check me out
           </label>
         </div>
-        <button type="submit" className=" col-sm-2 btn btn-primary bg-primary">
-          Signup
-        </button>
+        <div className="col-sm-2">
+          <button type="submit" className=" btn btn-primary bg-primary">
+            Signup
+          </button>
+        </div>
       </form>
     </div>
   );

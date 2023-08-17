@@ -63,9 +63,11 @@ export default function Signin() {
             Check me out
           </label>
         </div>
-        <button type="submit" className=" col-sm-2 btn btn-primary bg-primary">
-          Signin
-        </button>
+        <div className="col-sm-2">
+          <button type="submit" className=" btn btn-primary bg-primary">
+            Signin
+          </button>
+        </div>
       </form>
     </div>
   );
